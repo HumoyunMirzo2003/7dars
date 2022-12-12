@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* .burger .wrap {
+  position: relative;
+}
+* .burger .wrap img {
+  position: absolute;
+  background-color: none;
+}
+* .burger .wrap img:nth-child(1) {
+  top: 0px;
+}
+* .burger .wrap img:nth-child(2) {
+  top: 72px;
+}
+* .burger .wrap img:nth-child(3) {
+  top: 50px;
+}/*# sourceMappingURL=main.css.map */

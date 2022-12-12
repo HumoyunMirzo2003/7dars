@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="./styles/sass/main.css"> -->
+  <link rel="stylesheet" href="./style.css">
+  <title>Burger</title>
+</head>
+<body>
+
+  <div class="burger">
+
+    <div class="wrap">
+      <img data-name="top" class="topBread pozition" src="./img/top-bread.svg" alt="">
+      <img data-name="Cheese" class="cheese pozition" src="./img/cheese.svg" alt="">
+      <img data-name="Pickle" class="pickle pozition" src="./img/pickle.svg" alt="">
+      <img data-name="Onion" class="onion pozition" src="./img/onion.svg" alt="">
+      <img data-name="Tomato" class="tomato pozition" src="./img/tomato.svg" alt=""> 
+      <img data-name="Cheese" class="cheese pozition" src="./img/cheese.svg" alt="">
+      <img data-name="Meat" class="meat pozition" src="./img/meat.svg" alt="">
+      <img data-name="Salad" class="salad pozition" src="./img/salad.svg" alt="">
+      <img data-name="bottom" class="bottomBread" src="./img/bottom-bread.svg" alt="">
+    </div>
+
+
+
+    <div class="burger__right">
+      <div class="burger__right-top">
+        <ul>
+          <li>Cheese - $2</li>
+          <li>Meat - $5</li>
+          <li>Onion - $1</li>
+          <li>Salad - $1</li>
+          <li>Tomato - $2</li>
+          <li>Pickle - $3</li>
+          <li>Bread - $2</li>
+        </ul>
+      </div>
+      <div class="burger__right-select">
+        <button data-price="2" data-name="Cheese">Cheese</button>
+        <button data-price="5" data-name="Meat">Meat</button>
+        <button data-price="1" data-name="Onion">Onion</button>
+        <button data-price="1" data-name="Salad">Salad</button>
+        <button data-price="2" data-name="Tomato">Tomato</button>
+        <button data-price="3" data-name="Pickle">Pickle</button>
+      </div>
+      <hr>
+      <div class="burger__right-price">
+        <h2>Total: <span class="price-text">$<span class="price">2</span></span></h2>
+      </div>
+    </div>
+   
+
+  </div>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>

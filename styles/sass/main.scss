@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .burger{
+        .wrap{
+            position: relative;
+            width: 800px;
+            margin: auto;
+            img{
+                position: absolute;
+                background-color: none;
+            }
+            img:nth-child(1){
+                top: 0px;
+            }
+            img:nth-child(2){
+                top: 72px;
+            }
+            img:nth-child(3){
+                top: 50px;
+            }
+        }
+    }
+}
